@@ -1,0 +1,15 @@
+package org.kol.springaop.component;
+
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class Student {
+
+    public void accountOpen(){
+
+        System.out.println("STUDENT: Bank Account Opened");
+    }
+
+
+}
